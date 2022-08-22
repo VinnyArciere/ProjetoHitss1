@@ -17,6 +17,11 @@ body {
   background-color: lightgray;
 }
 
+.RefButton {
+  color: black;
+  text-decoration: none;
+}
+
 p {
   margin: 5px;
   padding: 5px;
@@ -43,6 +48,32 @@ p {
   display: inline-block;
   width: 100%;
   text-align: center;
+}
+
+.ButtonPage {
+  border: 1px solid #c0c0c0;
+  float: left;
+  background-color: white;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  display: inline;
+  background-size: contain;
+  text-decoration: none;
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+  text-align: left;
+  block-size: auto;
+}
+
+.ButtonPage :hover {
+  background: #333;
+  color: #fff;
+  -moz-box-shadow: 0 3px 10px 0 #ccc;
+  -webkit-box-shadow: 0 3px 10px 0 #ccc;
+  text-shadow: 0px 0px 5px #fff;
 }
 
 .menu {
